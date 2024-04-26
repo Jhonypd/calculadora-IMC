@@ -1,14 +1,16 @@
 /** @format */
 
 import "./App.css";
-import Header from "./components/Header";
-import IMC from "./components/IMC";
+import Form from "./components/Form/Form";
+import Login from "./components/Login/LoginControl";
+// import Header from "./components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <IMC />
+      {/* <Header /> */}
+      <Form title />
+      <Login name={"Jhony"} />
     </div>
   );
 }
